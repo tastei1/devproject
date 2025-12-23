@@ -15,7 +15,7 @@ services:
       - app-network
 
   backend:
-    image: abhinr/meanapp-backend:latest
+    image: ann2004/meanapp-backend:latest
     container_name: backend
     restart: always
     ports:
@@ -30,7 +30,7 @@ services:
       - app-network
 
   frontend:
-    image: abhinr/meanapp-frontend:latest
+    image: ann2004/meanapp-frontend:latest
     container_name: frontend
     restart: always
     ports:
