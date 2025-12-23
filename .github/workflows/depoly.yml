@@ -30,14 +30,14 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: abhinr/meanapp-backend:latest
+          tags: ann2004/meanapp-backend:latest
       
       - name: Build and Push Frontend Image
         uses: docker/build-push-action@v4
         with:
           context: ./frontend
           push: true
-          tags: abhinr/meanapp-frontend:latest
+          tags: ann2004/meanapp-frontend:latest
 
   deploy:
     name: Deploy to AWS
